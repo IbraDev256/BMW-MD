@@ -28,7 +28,7 @@
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
     ,
@@ -56,12 +56,12 @@
     "HEROKU_APY_KEY": {
     "description": "insert your heroku api-key ",
      "value":"",
-	"required" :true
+	"required" :false
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (the name you wrote at the beginning)",
      "value":"",
-	"required" :true
+	"required":false
     }  
 	  ,
     "SESSION_ID":
